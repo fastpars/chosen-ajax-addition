@@ -155,7 +155,7 @@
 			minLength = options.minLength;
 		}
 
-    $('.chosen-search > input, .chosen-choices .search-field input', chosen).
+    $('input', chosen).
       bind('keyup', processValue).
       bind('paste', function (e) {
         var that = this;
